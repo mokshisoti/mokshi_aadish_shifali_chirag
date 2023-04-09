@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attendance Manager</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="pcte.png" alt="pcte logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Attendance</a></li>
+                        <li><a href="punishment.html">Punishments</a></li>
+                        <li><a href="catchup.html">Catch-Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+      
+    </div>
+	<h1>Today's Attendance</h1>
+	<p id="status"></p>
+		<table>
+			<thead>
+				<tr>
+					<th>Roll No.</th>
+                    <th>Name</th>
+					<th>Attendance</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>001</td>
+                    <td>Mokshi</td>
+					<td>
+						<button class="attendance-button" onclick="markAttendance()">Mark Attendance</button>
+					</td>
+				</tr>
+				<tr>
+					<td>002</td>
+                    <td>Aadish</td>
+					<td>
+						<button class="attendance-button" onclick="markAttendance()">Mark Attendance</button>
+					</td>
+				</tr>
+                <tr>
+					<td>003</td>
+                    <td>Shifali</td>
+					<td>
+						<button class="attendance-button" onclick="markAttendance()">Mark Attendance</button>
+					</td>
+				</tr>
+                <tr>
+					<td>004</td>
+                    <td>Chirag</td>
+					<td>
+						<button class="attendance-button" onclick="markAttendance()">Mark Attendance</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+        <a href="punishment.html" class="btn1">get your punishment &#8594;</a>
+
+	<script src="script.js"></script>
+</body>
+<div class="fotter">
+    <div class="container5">
+        <p>Attendance Manager made by mokshi, aadish, chirag and shifali.</p>
+    </div>
+</div>
+</html>

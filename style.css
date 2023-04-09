@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+    color:#224712;
+}
+p{
+    color: #555;
+    padding-left: 70px;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e9b254;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.column{
+    flex-basis: 50%;
+    min-width: 300px;
+    background-color: #e9b254;
+}
+.column img{
+    width: 850px;
+    height: 450px;
+    float: right;
+    padding: 25px;
+    box-align: right;
+    padding-left: 280px;
+}
+.column h2{
+    font-size: 75px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: #224712;
+    text-shadow: 2px 2px #fff;
+    padding-left: 70px;
+}
+.column h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 25px 0;
+    color: #224712;
+    padding-left: 70px;
+}
+.btn{
+    display: inline-block;
+    background: #224712;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 50px 60px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2.5px;
+    transition: background 0.5s;
+
+}
+.btn:hover{
+    background: #ffffff;
+    color: #000000;
+    
+}
+.header{
+    background:#e9b254;
+    height: 145px;
+}
+.header row{
+    margin-top: 70px;
+    height: 500px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+h1{
+    font-size: 30px;
+    color: #224712;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+th, td {
+	text-align: left;
+	padding: 20px;
+    width: auto;
+}
+
+th {
+    max-width: 100%;
+	background-color: #224712;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+input[type=checkbox] {
+	transform: scale(1.5);
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    background: #224712;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 50px 500px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2.5px;
+    transition: background 0.5s;
+    box-align: center;
+    text-align: match-parent;
+
+}
+.btn1:hover{
+    background: #ffffff;
+    color: #000000;
+    
+}
+.container1 {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+    background-color: #e9b254 ;
+}
+
+.container1 h1 {
+	text-align: center;
+	margin-bottom: 20px;
+   
+}
+
+form {
+	margin-bottom: 20px;
+    text-align: justify;
+    display: inline;
+    
+}
+
+input[type="checkbox"] {
+	margin-right: 10px;
+    display: inline block;
+}
+
+label {
+	display: inline;
+	margin-bottom: 50px;
+    padding: 30px;
+    line-height: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.btn2{
+    display: inline-block;
+    justify-content: center;
+    background: #224712;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 50px 250px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2.5px;
+    transition: background 0.5s;
+    box-align: center;
+    
+
+}
+.btn2:hover{
+    background: #ffffff;
+    color: #000000;
+    
+}
+.box3{
+    background-color: #e9b254;
+    height: 600px;
+}
+.container4 {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+    color: #224712;
+    font-size: 50px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 20px;
+	margin-bottom: 20px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+h4 {
+	margin-bottom: 20px;
+    text-align: center;
+}
+.footer {
+	background-color: #224712;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+    height: 150px;
+    width: max;
+    display: flex;
+    flex-direction: column;
+
+}
+.container5{
+    height: 100px;
+    width: max;
+    background-color: #224712;
+}
+.container5 p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+}
